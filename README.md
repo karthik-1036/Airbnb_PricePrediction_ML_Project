@@ -33,9 +33,11 @@ This project predicts Airbnb listing prices in New York City using machine learn
    cd Airbnb_PricePrediction_ML_Project
 
 2. Set up the environment:
+   ```bash
    conda create --name airbnb-ml python=3.10 -y
    conda activate airbnb-ml
    pip install -r requirements.txt
 
-3. Run the Pipeline:   
+3. Run the Pipeline:
+```bash   
    python main.py
